@@ -1,6 +1,6 @@
 from Database import get_connection
 
-
+def create_profile():
     conn = get_connection()
     cursor = conn.cursor()
 
