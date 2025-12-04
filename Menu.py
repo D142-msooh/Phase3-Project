@@ -20,7 +20,7 @@ def main():
         elif choice == "2":
             profile = get_user()
             if profile:
-                
+                generate_recommendations(
                     profile["name"],
                     profile["age"],
                     profile["main_goal"],
