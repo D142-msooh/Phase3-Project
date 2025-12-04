@@ -41,7 +41,7 @@ def view_logs():
         
     print("\nLogs:\n")
     for entry, date in rows:
-            
+            print(f"[{date}] - {entry}")
 
     conn.close()
     print()
