@@ -11,7 +11,7 @@ def get_user():
     return row
 def get_skills(user_id):
     conn = get_connection()
-    
+    cursor = conn.cursor()
 
     cursor.execute("SELECT skill FROM skills WHERE user_id = ?", (user_id,))
     return [row[0] for row in cursor.fetchall()]
