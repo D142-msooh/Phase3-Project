@@ -85,7 +85,7 @@ Displays all logs for the user in a clean, readable format.
 
 ``bash
 
-git clone <your-repo-url>
+git clone <https://github.com/D142-msooh/Phase3-Project.git>
 cd opportunity-recommender
 
 ### 2. install dependencies.
